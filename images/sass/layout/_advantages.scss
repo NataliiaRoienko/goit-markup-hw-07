@@ -1,0 +1,61 @@
+.about-advantages {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.about-advantages-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.about-advantages-list-item {
+  width: 270px;
+}
+
+.about-advantages-list-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.about-work-list-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.team-list-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.about-advantages-list,
+.address-list,
+.about-work-list,
+.team-list,
+.btn-list,
+.projects-list-item,
+.navigation-list {
+  list-style: none;
+}
+
+.about-subtitle {
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+
+.block-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 120px;
+  margin-bottom: 30px;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  transition: fill 250ms var(--timing-function);
+}
+
+.advantages-icon {
+  width: 70;
+  height: 70;
+}
