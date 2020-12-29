@@ -1,19 +1,19 @@
 .about-advantages {
   padding-top: 94px;
   padding-bottom: 94px;
-}
 
-.about-advantages-list {
-  display: flex;
-  flex-wrap: wrap;
-}
+  &-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
 
-.about-advantages-list-item {
-  width: 270px;
-}
+  &-list-item {
+    width: 270px;
+  }
 
-.about-advantages-list-item:not(:last-child) {
-  margin-right: 30px;
+  &-list-item:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
 .about-work-list-item:not(:last-child) {

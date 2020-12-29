@@ -2,31 +2,21 @@
   background: #fff;
   padding-top: 94px;
   padding-bottom: 94px;
-}
 
-.clients-list {
-  display: flex;
-  justify-content: space-between;
-  list-style: none;
-}
+  &-list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+  }
 
-.clients-item:not(:last-child) {
-  margin-right: 30px;
-}
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 
-.clients-icon {
-  fill: #afb1b8;
-  transition: fill 250ms var(--timing-function);
-}
-
-.clients-link:hover .clients-icon,
-.clients-link:focus .clients-icon {
-  fill: var(--accent-color);
-}
-
-.clients-link:hover,
-.clients-link:focus {
-  border-color: var(--accent-color);
+  &-icon {
+    fill: #afb1b8;
+    transition: fill 250ms var(--timing-function);
+  }
 }
 
 .clients-link {
@@ -39,4 +29,14 @@
   border-radius: 4px;
   text-decoration: none;
   transition: border-color 250ms var(--timing-function);
+
+  &:hover .clients-icon,
+  &:focus .clients-icon {
+    fill: var(--accent-color);
+  }
+
+  &:hover,
+  &:focus {
+    border-color: var(--accent-color);
+  }
 }
