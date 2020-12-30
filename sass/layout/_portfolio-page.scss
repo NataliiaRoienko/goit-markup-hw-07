@@ -20,7 +20,10 @@
   .projects-list-item {
     width: 370px;
     background: #ffffff;
-    border: 1px solid #eeeeee;
+    // border: 1px solid #eeeeee;
+  }
+
+  .projects-list-item {
     transition: all 250ms var(--timing-function);
   }
 
