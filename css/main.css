@@ -193,7 +193,7 @@ img {
 }
 
 .hero {
-  width: 1600px;
+  max-width: 1600px;
   height: 600px;
   padding-top: 200px;
   padding-bottom: 200px;
@@ -903,7 +903,9 @@ img {
 .portfolio-page .projects-list-item {
   width: 370px;
   background: #ffffff;
-  border: 1px solid #eeeeee;
+}
+
+.portfolio-page .projects-list-item {
   transition: all 250ms var(--timing-function);
 }
 
